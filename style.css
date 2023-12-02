@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800,900,1000');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito';
+    border: none;
+}
+
+/* ------------navbar style begins------------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+    padding: 20px 10%;
+}
+
+.nav-links li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #465765;
+}
+
+.create-acc-btn {
+    margin-left: 80px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #4949d7;
+    color: white;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.active {
+    color: black;
+    font-weight: 700;
+}
+
+.login {
+    color: #4949d7;
+    font-weight: 700;
+}
+
+/* ------------navbar style endss------------- */
+
+/* ------------hero style begins------------- */
+
+.hero {
+    background: url('./images/background\ img.png') no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 100px 10% 200px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+    position: relative;
+}
+
+.create-acc-btn1 {
+    padding: 8px 16px;
+    font-size: 16px;
+    background: #4949d7;
+    color: white;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.create-acc-btn1 span {
+    color: #3AD6DE;
+    font-weight: 100;
+}
+
+/* .payment {
+    max-width: 450px;
+} */
+
+.payment h1 {
+    max-width: 450px;
+    font-size: 60px;
+    color: #282A65;
+
+    /* font-weight: 1500; */
+}
+
+.payment h1 span {
+    color: #4949d7;
+}
+
+.payment p {
+    margin: 30px 0;
+    font-size: 23px;
+    max-width: 400px;
+    /* line-height: 1.7; */
+    color: #282A65;
+}
+
+.demo {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #7584A3;
+    color: white;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: 100;
+    margin-left: 30px;
+}
+
+.autocredit img {
+    width: 600px;
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+}
+
+/* img { */
+/* width: 500px; */
+/* } */
+
+
+/* ------------hero style ends------------- */
+
+/* ------------transfer style begins------------- */
+
+.about-payment {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    background: #282A65;
+}
+
+.transaction-cards {
+    margin-top: 160px;
+    width: 700px;
+    /* border: 1px solid white; */
+}
+
+.pay {
+    /* border: 1px solid white; */
+    padding: 40px;
+}
+
+.pay h2 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #3AD6DE;
+}
+
+.text-ash-white {
+    color: #E4ECFF;
+}
+
+.text-light-80 {
+    color: #A0B5DD;
+    margin-left: 40px;
+}
+
+article {
+    margin-top: 20px;
+}
+
+article div {
+    display: flex;
+}
+
+article div h3 {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #E4ECFF;
+    margin-left: 5px;
+}
+
+article div p {
+    font-size: 17px;
+    
+}
+
+.txt {
+    margin-top: 10px;
+}
+
+.reason {
+    margin-top: 70px;
+}
+
+.card {
+    position: relative;
+    background: white;
+    border-radius: 13px;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px;
+    max-width: 26em;
+    padding-left: 6.7em;
+    top: 50px;
+}
+
+.card img {
+    position: absolute;
+    left: -60px;
+    bottom: 0;
+    width: 40%;
+}
+
+.smart-payment {
+    /* height: 100vh; */
+    background: rgb(245, 245, 255);
+    padding: 100px 10% 50px;
+    /* position: relative; */
+}
+
+.solution {
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+}
+
+.solution h1 {
+
+    font-size: 45px;
+    font-weight: 800;
+    color: #282A65;
+    max-width: 450px;
+}
+
+.solution p {
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 550px;
+    color: #282A65;
+    margin: 30px 0;
+}
+
+.create-acc-btn2 {
+    padding: 10px 18px;
+    font-size: 16px;
+    background: #4949d7;
+    color: white;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.solution .banks {
+    display: block;
+    width: 500px;
+
+}
+
+.solution .support {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+/* .img {
+    border: 1px solid;
+} */
+
+.smart {
+    /* border: 1px solid; */
+    /* margin: 0; */
+    width: 600px;
+    /* position: absolute; */
+    /* width: 700px;
+    /* height: auto; */
+    /* right: -150px; */
+    /* top: 0; */
+}
+
+.detailed {
+    background-color: #E9ECF4;
+    position: relative;
+    z-index: 10;
+    margin-top: -50px;
+    padding: 70px;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .4);
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.detailed img {
+    width: 400px;
+
+}
+
+.report {
+    max-width: 500px;
+}
+
+.report h1 {
+    font-size: 50px;
+    color: #282A65;
+    line-height: 60px;
+    font-weight: 800;
+
+}
+
+.report p {
+    color: #282A65;
+    /* border: 1px solid red; */
+    /* padding: 20px; */
+    margin-top: 15px;
+    line-height: 35px;
+    font-size: 24px;
+    font-family: 'roboto';
+}
+.list-container img {
+    width: 30px;
+}
+
+.list-container,
+.list-container1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /* box-sizing: border-box; */
+}
+
+.list-item p {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 15px;
+    color: #7584A3;
+}
+.monitor{
+    background-color: white;
+    padding: 100px 10%;
+    display: flex;
+    gap: 100px;
+
+    /* position: relative; */
+    
+
+}
+.business{
+    max-width: 550px;
+
+    
+    
+}
+.business h1{
+    color:#282A65;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 50px;
+    
+}
+.business p{
+    font-size: 17px;
+    color: #282A65;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.list-container1 {
+    max-width: 550px;
+}
+
+.list-container1 .list-item {
+    margin: 5px 0;
+    /* margin-bottom: 40px; */
+}
+.create-acc-btn2{
+    margin-top: 30px;
+    padding: 7px 40px;
+}
+.about {
+    display: flex;
+    max-width: 550px;
+    gap: 30px;
+
+    /* justify-content: space-evenly; */
+}
+.about h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.about h4, p {
+    margin-bottom: 10px;
+}
+
+.about1 div img, .about2 div img{
+    margin-bottom: 10px;
+}
+.about p{
+    color: #7E7FA3;
+}
+.security{
+    display: flex;
+margin-bottom: 100px;
+}
+.standard {
+    max-width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    /* border: 1px solid; */
+    background-color: #F5F5FF;
+}
+
+.standard img {
+    max-width: 50%;
+    /* border: 1px solid blue; */
+}
+.standard h3{
+    /* max-width:50% ; */
+    align-self: center;
+    font-size: 22px;
+    color: #282A65;
+}
+
+.complete {
+    display: inline-flex;
+    /* border: 1px solid; */
+    background-color: #E3E3EB;
+}
+
+.complete img {
+    width: 300px;
+}
+
+.complete-txt {
+    padding: 30px 140px 0 0;
+}
+.complete-txt p{
+    color: #282A65;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.create-acc-btn3 {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #3AD6DE ;
+    color: #282A65;
+    border-radius: 10px;
+    font-weight: 900;
+    box-shadow: 2px  ;
+}
+
+footer {
+    padding: 0 10%;
+}
+
+.automation {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.company p {
+    max-width: 290px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #2C2D3B;
+}
+
+.listings h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2C2D3B;
+    text-transform: capitalize;
+}
+
+.listings ul li {
+    list-style-type: none;
+    margin-top: 10px;
+    color: rgba(44,45,59,0.81);
+    font-size: 16px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.copyright p:first-child {
+    color: rgba(0,0,0,.5);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.copyright p:last-child {
+    color: rgba(0,0,0,.5);
+    font-size: 11px;
+    padding: 0 160px;
+}
